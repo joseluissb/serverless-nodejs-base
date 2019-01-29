@@ -1,0 +1,28 @@
+{
+  "name": "base",
+  "version": "1.0.0",
+  "description": "Basic serverless architecture using NodeJS",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseluissb/serverless-nodejs-base.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseluissb/serverless-nodejs-base/issues"
+  },
+  "homepage": "https://github.com/joseluissb/serverless-nodejs-base#readme",
+  "devDependencies": {
+    "serverless-offline": "^4.2.0"
+  },
+  "dependencies": {
+    "config": "^3.0.1",
+    "dotenv": "^6.2.0",
+    "mongoose": "^5.4.7"
+  }
+}
